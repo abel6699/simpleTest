@@ -85,7 +85,7 @@ import junit.framework.Assert;
                        Assert.assertEquals('abc', '中文ESPñFRàçJPNしいフォルダRuтекстовый');
                    }
                   @Test
-                   public void alwaysFail14()
+                   public void alwaysFail15()
                    {
                        Assert.assertEquals(1, 2);
 }
