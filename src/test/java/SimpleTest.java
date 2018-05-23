@@ -118,6 +118,18 @@ import junit.framework.Assert;
                        Assert.assertEquals(1, 2);
                    }
                  
+                   @Test
+                   public void alwaysFail181()
+                   {
+                       Assert.assertEquals(1, 2);
+                   }
+                  
+                  @Test
+                   public void alwaysFail191()
+                   {
+                       Assert.assertEquals(1, 2);
+                   }
+                  
                     @Test
                     @Ignore
                     public void ignored1()
