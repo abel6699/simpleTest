@@ -82,13 +82,13 @@ import junit.framework.Assert;
                    @Test
                    public void alwaysFail14()
                    {
-                       Assert.assertEquals('abc', '中文ESPñFRàçJPNしいフォルダRuтекстовый');
+                       Assert.assertEquals("abc", "中文ESPñFRàçJPNしいフォルダRuтекстовый");
                    }
                   @Test
                    public void alwaysFail15()
                    {
                        Assert.assertEquals(1, 2);
-}
+                    }
                   
                     @Test
                     @Ignore
